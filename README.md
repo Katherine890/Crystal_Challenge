@@ -1,10 +1,11 @@
 # Crystal_Challenge
 
-A  Star Wars themed crystal challenge game that starts with a random number. There are four crystals that each have a random hidden value. By clicking on a crystal, its value is added to the total score at the bottom. If the total score equals the random number, the player wins. If the score goes above the random number, the player loses.
+A  Star Wars themed crystal challenge. The crystals resemble the kyber crystals found in lightsabers. 
 
-This game provides entertainment for those who like games that involve stragetical thinking. 
+This simple game provides entertainment for those who like games that involve stragetical thinking. 
 
-Users can get try out the game by clicking on the deployed link below.
+Users can get try out the game by clicking on the deployed link below. 
+The game starts with a random number. There are four crystals that each have a random hidden value. By clicking on a crystal, its value is added to the total score at the bottom. If the total score equals the random number, the player wins. If the score goes above the random number, the player loses.
 
 # Deployed Page
 
