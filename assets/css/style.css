@@ -2,8 +2,12 @@ body {
     background: url("../images/star-wars-wallpaper.jpg");
     background-repeat: no-repeat;
     width: 100%;
+    overflow-x: hidden;
 }
 
+.container {
+    margin-left: 20px;
+}
 /* crystal buttons */
 input {
     width: 110px;
@@ -18,24 +22,24 @@ input:hover {
 
 /* title of game */
 header {
-    background-color: #7F1F1F;
     color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 300px;
-    padding: 1px;
+    font-family: "Cantarell", sans-serif;
+    font-size: 20px;
+    width: 800px;
+    position: relative;
+    right: 170px;
 }
 
 /* game instructions */
 .content {
-    background-color:#3F3F3F;
     color: white;
     width: 400px;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     position: relative;
-    top: 10px;
+    top: 5px;
 }
 
 /* Random number */
@@ -44,6 +48,7 @@ header {
     font-size: 30px;
     color: white;
     background-color: #001076;
+    border-radius: 4px;
     padding: 5px;
     width: 240px;
     height: 100px;
@@ -54,6 +59,7 @@ header {
 /* Wins and Losses */
 .wins-losses {
     background-color: #3F3F3F;
+    border-radius: 4px;
     width: 90px;
     height: 100px;
     padding: 5px;
@@ -67,7 +73,6 @@ header {
 /* the user's score */
 .total-score {
     color: white;
-    background-color: #7F1F1F;
     font-family: Arial, Helvetica, sans-serif;
     width: 250px;
     padding: 5px;
@@ -80,6 +85,7 @@ header {
     font-size: 30px;
     color: white;
     background-color: #7F1F1F;
+    border-radius: 4px;
     padding: 5px;
     width: 250px;
     height: 110px;
